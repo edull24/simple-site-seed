@@ -112,7 +112,7 @@ module.exports = function (grunt) {
                         // Remove all files from root.
                         '*',
                         // Only remove application files from the root.
-                        '!{<%= config.app %>,<%= config.dist %>,node_modules,test,.{bowerrc,editorconfig,git*,jshintrc},*.{json,md,js},LICENSE}'
+                        '!{<%= config.app %>,<%= config.dist %>,node_modules,test,.{bowerrc,editorconfig,git*,jshintrc},*.{json,md,js,sublime*},LICENSE}'
                     ]
                 }]
             },
